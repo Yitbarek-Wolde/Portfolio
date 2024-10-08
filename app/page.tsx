@@ -7,17 +7,19 @@ return (
  <div className="mx-auto max-w-2xl lg:max-w-5xl">
                     <div className="max-w-2xl">
                       <Image
-                        alt=""
+                        alt="Yitbarek"
+                        id="about"
                         fetchPriority="high"
-                        quality={100}
-                        width="100"
-                        height="100"
+                        quality= {100}
+                        priority= {true}
+                        width={150}
+                        height={150}
                         className="rounded-full inline-block"
-                        sizes="4rem"
+                      
                         src={ProfilePic}
                       />
 
-                      <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                      <h1  className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100 inline-block ml-6">
                         Software Engineer
                       </h1>
                       <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
@@ -34,6 +36,7 @@ return (
                         Oracle, PostgreSQL, and MongoDB.
                       </p>
                       <div className="mt-6 flex gap-6">
+                        {/* Tweeter and Instagram when i have it 
                         <a
                           className="group -m-1 p-1"
                           aria-label="Follow on X"
@@ -60,11 +63,11 @@ return (
                             <path d="M12 3c-2.444 0-2.75.01-3.71.054-.959.044-1.613.196-2.185.418A4.412 4.412 0 0 0 4.51 4.511c-.5.5-.809 1.002-1.039 1.594-.222.572-.374 1.226-.418 2.184C3.01 9.25 3 9.556 3 12s.01 2.75.054 3.71c.044.959.196 1.613.418 2.185.23.592.538 1.094 1.039 1.595.5.5 1.002.808 1.594 1.038.572.222 1.226.374 2.184.418C9.25 20.99 9.556 21 12 21s2.75-.01 3.71-.054c.959-.044 1.613-.196 2.185-.419a4.412 4.412 0 0 0 1.595-1.038c.5-.5.808-1.002 1.038-1.594.222-.572.374-1.226.418-2.184.044-.96.054-1.267.054-3.711s-.01-2.75-.054-3.71c-.044-.959-.196-1.613-.419-2.185A4.412 4.412 0 0 0 19.49 4.51c-.5-.5-1.002-.809-1.594-1.039-.572-.222-1.226-.374-2.184-.418C14.75 3.01 14.444 3 12 3Zm0 1.622c2.403 0 2.688.009 3.637.052.877.04 1.354.187 1.67.31.421.163.72.358 1.036.673.315.315.51.615.673 1.035.123.317.27.794.31 1.671.043.95.052 1.234.052 3.637s-.009 2.688-.052 3.637c-.04.877-.187 1.354-.31 1.67-.163.421-.358.72-.673 1.036a2.79 2.79 0 0 1-1.035.673c-.317.123-.794.27-1.671.31-.95.043-1.234.052-3.637.052s-2.688-.009-3.637-.052c-.877-.04-1.354-.187-1.67-.31a2.789 2.789 0 0 1-1.036-.673 2.79 2.79 0 0 1-.673-1.035c-.123-.317-.27-.794-.31-1.671-.043-.95-.052-1.234-.052-3.637s.009-2.688.052-3.637c.04-.877.187-1.354.31-1.67.163-.421.358-.72.673-1.036.315-.315.615-.51 1.035-.673.317-.123.794-.27 1.671-.31.95-.043 1.234-.052 3.637-.052Z"></path>
                             <path d="M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-7.622a4.622 4.622 0 1 0 0 9.244 4.622 4.622 0 0 0 0-9.244Zm5.884-.182a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z"></path>
                           </svg>
-                        </a>
+                        </a> */}
                         <a
                           className="group -m-1 p-1"
                           aria-label="Follow on GitHub"
-                          href="#"
+                          href="https://github.com/Yitbarek-Wolde"
                         >
                           <svg
                             viewBox="0 0 24 24"
@@ -81,7 +84,7 @@ return (
                         <a
                           className="group -m-1 p-1"
                           aria-label="Follow on LinkedIn"
-                          href="#"
+                          href="https://linkedin.com/in/yitbarek-w-2a162426b"
                         >
                           <svg
                             viewBox="0 0 24 24"
@@ -196,7 +199,7 @@ return (
                             >
                               <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
                             </span>
-                            September 5, 2022
+                            September 5, 2024
                           </time>
                           <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                             Most companies try to stay ahead of the curve when
@@ -246,7 +249,7 @@ return (
                             >
                               <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
                             </span>
-                            September 2, 2022
+                            September 2, 2024
                           </time>
                           <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                             When you’re building a website for a company as
@@ -275,57 +278,7 @@ return (
                             </svg>
                           </div>
                         </article>
-                        <article className="group relative flex flex-col items-start">
-                          <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                            <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
-                            <a href="/articles/rewriting-the-cosmos-kernel-in-rust">
-                              <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-                              <span className="relative z-10">
-                                Rewriting the cosmOS kernel in Rust
-                              </span>
-                            </a>
-                          </h2>
-                          <time
-                            className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                            dateTime="2022-07-14"
-                          >
-                            <span
-                              className="absolute inset-y-0 left-0 flex items-center"
-                              aria-hidden="true"
-                            >
-                              <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
-                            </span>
-                            July 14, 2022
-                          </time>
-                          <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                            When we released the first version of cosmOS last
-                            year, it was written in Go. Go is a wonderful
-                            programming language, but it’s been a while since
-                            I’ve seen an article on the front page of Hacker
-                            News about rewriting some important tool in Go and I
-                            see articles on there about rewriting things in Rust
-                            every single week.
-                          </p>
-                          <div
-                            aria-hidden="true"
-                            className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500"
-                          >
-                            Read article
-                            <svg
-                              viewBox="0 0 16 16"
-                              fill="none"
-                              aria-hidden="true"
-                              className="ml-1 h-4 w-4 stroke-current"
-                            >
-                              <path
-                                d="M6.75 5.75 9.25 8l-2.5 2.25"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              ></path>
-                            </svg>
-                          </div>
-                        </article>
+                       
                       </div>
                       <div className="space-y-10 lg:pl-16 xl:pl-24">
                         <form
@@ -465,7 +418,7 @@ return (
                           </ol>
                           <a
                             className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
-                            href="#"
+                            href="./public/Yitbarek_wolde_resume24.pdf" download="Yitbarek_wolde_resume24.pdf"
                           >
                             Download Resume
                             <svg

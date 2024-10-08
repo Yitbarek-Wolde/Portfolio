@@ -103,7 +103,7 @@ export default function RootLayout({
                               <li>
                                 <a
                                   className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
-                                  href="/about"
+                                  href="#about"
                                 >
                                   About
                                 </a>
@@ -124,22 +124,7 @@ export default function RootLayout({
                                   Projects
                                 </a>
                               </li>
-                              <li>
-                                <a
-                                  className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
-                                  href="/speaking"
-                                >
-                                  Speaking
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
-                                  href="/uses"
-                                >
-                                  Uses
-                                </a>
-                              </li>
+                              
                             </ul>
                           </nav>
                         </div>
@@ -173,7 +158,19 @@ export default function RootLayout({
                           <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                             <a
                               className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                              href="/about"
+                              href="/"
+                            >
+                              Home
+                            </a>
+                            <a
+                              className="transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="/articles"
+                            >
+                              Articles
+                            </a>
+                            <a
+                              className="transition hover:text-teal-500 dark:hover:text-teal-400"
+                              href="#about"
                             >
                               About
                             </a>
@@ -183,18 +180,7 @@ export default function RootLayout({
                             >
                               Projects
                             </a>
-                            <a
-                              className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                              href="/speaking"
-                            >
-                              Speaking
-                            </a>
-                            <a
-                              className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                              href="/uses"
-                            >
-                              Uses
-                            </a>
+                          
                           </div>
                           <p className="text-sm text-zinc-400 dark:text-zinc-500">
                             © 2024 Yitbarek Wolde. All rights reserved.
