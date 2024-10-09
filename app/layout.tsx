@@ -103,7 +103,7 @@ export default function RootLayout({
                               <li>
                                 <a
                                   className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
-                                  href="#about"
+                                  href="/#about"
                                 >
                                   About
                                 </a>
@@ -170,7 +170,7 @@ export default function RootLayout({
                             </a>
                             <a
                               className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                              href="#about"
+                              href="/#about"
                             >
                               About
                             </a>
