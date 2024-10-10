@@ -1,0 +1,40 @@
+[
+    {
+      "src": "https://imgs.search.brave.com/sL5awhrvhlAj5gHyKhcmboLwSPZ9rP-AlPaVGyi11ZE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LmxvZ3JvY2tldC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDUvZmVycmlz/LWNyYWItcnVzdC1w/cm9ncmFtbWluZy1s/YW5ndWFnZS1vZmZp/Y2lhbC1tYXNjb3Qu/cG5n",
+      "title": "Web Server with Manual Thread Pool Implementation in Rust",
+      "description": "Developed a custom HTTP server in Rust, including manual implementation of a thread pool for concurrent request handling. • Project Overview: Built a basic HTTP server from scratch in Rust, handling fundamental HTTP requests and implementing a thread pool to manage concurrent connections. • Key Features: ◦ Custom HTTP Protocol Handling: Implemented HTTP request parsing and response generation manually, ensuring compliance with HTTP standards. ◦ Thread Pool Implementation: Designed and developed a thread pool to manage multiple client connections concurrently, optimizing server performance and responsiveness. ◦ Concurrency and Safety: Utilized Rust’s ownership model and concurrency features to ensure thread safety and prevent data races. ◦ Error Handling: Integrated robust error handling mechanisms to manage various potential issues and ensure server stability. Technologies Used: Rust, standard library for networking and threading, neo-vim.",
+      "date": "2024-08-01",
+      "link": "https://github.com/Yitbarek-Wolde"
+    },
+    {
+      "src": "https://imgs.search.brave.com/Fs3HDZCGfI11LTMZlsMTVEj2XJunxoapQACnS2tX7AM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MTEzNzczNTAvZmls/ZS9vcmlnaW5hbC1m/NmUwZmE5NTI3ZmY4/NzE2YmIyOTMyN2Zj/YzlmOWY5ZS5wbmc_/cmVzaXplPTQwMHgw",
+      "title": "Pharmacy Inventory Management System",
+      "description": "Full Stack Development: Built both frontend and backend using React.js and Node.js/Express. • User Interface: Designed an intuitive UI for browsing medications and reading reviews, enhancing accessibility and user experience. • Secure Authentication: Implemented authentication for secure CRUD operations, ensuring data integrity and security. • RESTful APIs: Utilized RESTful APIs for efficient communication between frontend and backend, optimizing performance and responsiveness. Technologies Used: Nodejs, Angular 18, Angular Material UI, JWT, MongoDB, REST API, Git, Express, Vs codium, Mongoose.",
+      "date": "2024-07-15",
+      "link": "https://github.com/Yitbarek-Wolde/Pharmacy-stock-management"
+    },
+    {
+      "src": "https://imgs.search.brave.com/ANs7yuYm_mknFMPavYbOYX6wQWFEUOPAlZZUGHnyVEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xNDk4/NDIwMzMudjIucHJl/c3NhYmxlY2RuLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/OS8wNy9Tb21hRk0t/TXVzaWMtUGxheWVy/LS5qcGc",
+      "title": "Audio Streaming Platform",
+      "description": "Secure Authentication: Developed a robust user login and registration system. • Dynamic Homepage: Designed a modern home page showcasing trending podcasts with a sticky player for continuous listening. • Podcast Discovery: Implemented a dedicated page for exploring new and popular podcasts. • Advanced Search: Enabled powerful search functionality for easy podcast discovery. • Podcast Creation: Integrated tools for creating podcasts, including text-to-audio conversion and AI-generated images. • Multi-Voice AI: Added support for multiple AI-generated voices for varied podcast content. • Profile Management: Created a profile page to view and delete user-created podcasts. • Podcast Details: Displayed detailed podcast information, including creator, listeners, and transcript. • Enhanced Player: Developed a player with controls for seamless listening. • Responsive Design: Ensured full functionality and visual appeal across all devices. Technologies Used: Next.js, TypeScript, Convex, OpenAI, Clerk, ShadCN, Tailwind CSS, Git, GitHub, Vs Codium.",
+      "date": "2024-06-30",
+      "link": "https://github.com/Yitbarek-Wolde/Audio-streaming-site"
+    },
+    {
+      "src": "https://imgs.search.brave.com/-gbkZdF87scYrUnPtB-kLTq6fLAwhtMzuwI_9e6yHvs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuaG9uZ2tpYXQu/Y29tL3VwbG9hZHMv/ZnJlZS1tdXNpYy1v/bmxpbmUvMi1zcG90/aWZ5LmpwZw",
+      "title": "Online Music Player Platform",
+      "description": "Full Stack Development: Built a full stack web app with React for the frontend and Node.js for the backend, including secure authentication and RESTful APIs. • Audio Playback: Implemented stable audio playback controls for seamless play, pause, and navigation. • Secure Authentication: Implemented authentication for secure CRUD operations, ensuring data integrity and security. • Search Functionality: Added search features to find songs by title and dynamically update the playlist. Technologies Used: React, TypeScript, Node.js, JavaScript, Postman, REST API, Git, GitHub, Vs Codium, Bootstrap, Axios, React Router.",
+      "date": "2024-05-12",
+      "link": "https://github.com/Yitbarek-Wolde/WAD1/tree/main/music-project"
+    },
+    {
+        "src": "https://imgs.search.brave.com/HSAR-q5w7fc0SY1SGHbDULnlo8i95Q1LbzrGERwHDF4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL3JvaGFu/cmFvNjE5L0xpYnJh/cnlfTWFuYWdlbWVu/dF9BbmRyb2lkX0Fw/cC9yYXcvbWFzdGVy/L1NjcmVlbnNob3Rz/L1NlYXJjaF9Cb29r/X1BhZ2UucG5n",
+        "title": "Library Management App",
+        "description": "Cross-Platform App: Developed a mobile application using React Native for iOS and Android. • User Interface Design: Created an intuitive interface for seamless interaction across platforms. • CRUD Functionality: Implemented CRUD operations for efficient library resource management. Technologies Used: React Native, Bootstrap, Git, Github, Google.",
+        "date": "2024-05-12",
+        "link": "https://github.com/Yitbarek-Wolde/LibraryManagment"
+      }     
+  ]
+
+
+  

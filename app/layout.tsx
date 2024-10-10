@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Head from "next/head";
+import 'swiper/swiper-bundle.css';
 import "./globals.css";
 import Navbar from "./navBar";
 
