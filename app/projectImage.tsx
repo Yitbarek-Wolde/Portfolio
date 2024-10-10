@@ -28,9 +28,9 @@ const ImageSlider = () => {
         modules={[Navigation, Pagination, Autoplay]}
       >
         <>
-          {projects.map((projects) => (
+          {projects.map((projects, index) => (
             //  <ProjectList key={index} project={project} />
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div className="flex items-start gap-4">
                 <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2 inline-block">
                   <img
