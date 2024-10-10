@@ -100,25 +100,20 @@ export default function RootLayout({
                             >
                               Home
                             </a>
-                            <a
-                              className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                              href="/articles"
-                            >
-                              Articles
-                            </a>
+                           
                             <a
                               className="transition hover:text-teal-500 dark:hover:text-teal-400"
                               href="/#about"
                             >
-                              About
+                              About Me
                             </a>
                             <a
                               className="transition hover:text-teal-500 dark:hover:text-teal-400"
-                              href="/projects"
+                              href="/articles"
                             >
-                              Projects
+                            Tech Articles
                             </a>
-                          
+                            
                           </div>
                           <p className="text-sm text-zinc-400 dark:text-zinc-500">
                             © 2024 Yitbarek Wolde. All rights reserved.

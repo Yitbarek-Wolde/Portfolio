@@ -4,7 +4,7 @@
       "title": "Web Server with Manual Thread Pool Implementation in Rust",
       "description": "Developed a custom HTTP server in Rust, including manual implementation of a thread pool for concurrent request handling. • Project Overview: Built a basic HTTP server from scratch in Rust, handling fundamental HTTP requests and implementing a thread pool to manage concurrent connections. • Key Features: ◦ Custom HTTP Protocol Handling: Implemented HTTP request parsing and response generation manually, ensuring compliance with HTTP standards. ◦ Thread Pool Implementation: Designed and developed a thread pool to manage multiple client connections concurrently, optimizing server performance and responsiveness. ◦ Concurrency and Safety: Utilized Rust’s ownership model and concurrency features to ensure thread safety and prevent data races. ◦ Error Handling: Integrated robust error handling mechanisms to manage various potential issues and ensure server stability. Technologies Used: Rust, standard library for networking and threading, neo-vim.",
       "date": "2024-08-01",
-      "link": "https://github.com/Yitbarek-Wolde"
+      "link": "https://github.com/Yitbarek-Wolde/Rust_web_server"
     },
     {
       "src": "https://imgs.search.brave.com/Fs3HDZCGfI11LTMZlsMTVEj2XJunxoapQACnS2tX7AM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MTEzNzczNTAvZmls/ZS9vcmlnaW5hbC1m/NmUwZmE5NTI3ZmY4/NzE2YmIyOTMyN2Zj/YzlmOWY5ZS5wbmc_/cmVzaXplPTQwMHgw",
