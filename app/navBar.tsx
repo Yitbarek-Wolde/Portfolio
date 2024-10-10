@@ -43,17 +43,12 @@ const Navbar = () => {
           </li>
           <li>
             <a className="block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/#about">
-              About
+              About Me
             </a>
           </li>
           <li>
             <a className="block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/articles">
-              Articles
-            </a>
-          </li>
-          <li>
-            <a className="block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/projects">
-              Projects
+             Tech Articles
             </a>
           </li>
         </ul>
@@ -69,17 +64,12 @@ const Navbar = () => {
           </li>
           <li>
             <a className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/#about">
-              About
+              About Me
             </a>
           </li>
           <li>
             <a className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/articles">
-              Articles
-            </a>
-          </li>
-          <li>
-            <a className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/projects">
-              Projects
+            Technical Articles
             </a>
           </li>
         </ul>
