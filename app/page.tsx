@@ -24,17 +24,7 @@ return (
                         Software Engineer
                       </h1>
                       <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        I’m Yitbarek, a software engineer based in Minneapolis
-                        with 5+ years of expertise in designing, testing, and
-                        deploying high-performance web applications. Proven
-                        track record of making impactful contributions across
-                        diverse cross teams through exceptional communication
-                        with cross-functional teams and technical stakeholders.
-                        Adept at leveraging a wide range of technologies,
-                        including React, React Native, Angular, Next.js,
-                        Express, Node.js, Django, Spring Boot, Microservices,
-                        REST APIs, WebSocket, GraphQL, CI/CD pipelines, AWS,
-                        Oracle, PostgreSQL, and MongoDB.
+                        I’m Yitbarek, a software engineer based in Minneapolis with 5+ years of expertise in designing, testing, and deploying high-performance web applications, software and automation solutions. Proven track record of making impactful contributions across diverse cross teams through exceptional communication with cross-functional teams and technical stakeholders. Adept at leveraging a wide range of technologies, including React, React Native, Angular, Next.js, Express, Node.js, Django, Spring Boot, Microservices, Automation, REST APIs, WebSocket, GraphQL, CI/CD pipelines, AWS,  Azure, GCP, Oracle, PostgreSQL, and MongoDB.
                       </p>
                       <div className="mt-6 flex gap-6">
                         {/* Tweeter and Instagram when i have it 
