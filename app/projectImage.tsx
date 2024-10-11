@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import projectData from "./projectData.json";
 import "swiper/swiper-bundle.css";
@@ -33,7 +33,7 @@ const ImageSlider = () => {
             <SwiperSlide key={index}>
               <div className="flex items-start gap-4">
                 <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2 inline-block">
-                  <img
+                  <Image
                     alt=""
                     className="absolute inset-0 h-full w-full object-cover"
                     src={projects.src}
