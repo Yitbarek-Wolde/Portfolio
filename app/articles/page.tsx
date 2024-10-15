@@ -13,14 +13,11 @@ interface Article {
 export default function Articles(){
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 8;
-
- 
+  const reversedArticles = [...articleData].reverse();
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts: Article[] = articleData.slice(indexOfFirstPost, indexOfLastPost).reverse();
-
-
-  const totalPages = Math.ceil(articleData.length / postsPerPage);
+  const currentPosts: Article[] = reversedArticles.slice(indexOfFirstPost, indexOfLastPost);
+  const totalPages = Math.ceil(reversedArticles.length / postsPerPage);
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
