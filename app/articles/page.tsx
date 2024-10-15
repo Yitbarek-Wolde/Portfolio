@@ -40,7 +40,7 @@ export default function Articles(){
         >
           <h2 className="text-2xl font-bold text-center mb-2">{article.title}</h2>
          <br/>
-          <p className="text-justify text-white">{article.content}</p>
+          <p className="text-justify  text-zinc-600 dark:text-zinc-400">{article.content}</p>
           <br/>
           <p className="text-left text-gray-500 mb-4">{article.date} - Yitbarek Wolde</p>
         
