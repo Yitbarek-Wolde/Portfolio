@@ -32,7 +32,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full bg-zinc-50 dark:bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full bg-zinc-500 dark:bg-black`}
       >
         <div className="flex w-full">
           <div className="fixed inset-0 flex justify-center sm:px-8">
