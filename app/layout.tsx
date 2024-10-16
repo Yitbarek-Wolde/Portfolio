@@ -4,6 +4,7 @@ import Head from "next/head";
 import 'swiper/swiper-bundle.css';
 import "./globals.css";
 import Navbar from "./navBar";
+import ThemeToggle from "./lightDarkTheme";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,17 +28,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" >
       <Head>
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full dark:bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full  bg-white ring-zinc-50 dark:bg-black`}
       >
+       
         <div className="flex w-full">
           <div className="fixed inset-0 flex justify-center sm:px-8">
             <div className="flex w-full max-w-7xl lg:px-8">
-              <div className="w-full dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+              <div className="w-full  bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
             </div>
           </div>
 
@@ -63,6 +65,7 @@ export default function RootLayout({
                         <div className="flex flex-1"></div>
                         <Navbar />
                         <div className="flex justify-end md:flex-1">
+                        <ThemeToggle />
                           <div className="pointer-events-auto"></div>
                         </div>
                       </div>

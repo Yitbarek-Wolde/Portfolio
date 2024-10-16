@@ -19,7 +19,7 @@ const ImageSlider = () => {
   return (
     <div className="mt-16 sm:mt-20">
       <Swiper
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 8000 }}
         spaceBetween={10}
         slidesPerView={1}
         navigation
@@ -29,7 +29,6 @@ const ImageSlider = () => {
       >
         <>
           {projects.map((projects, index) => (
-            //  <ProjectList key={index} project={project} />
             <SwiperSlide key={index}>
               <div className="flex items-start gap-4">
                 <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2 inline-block">
@@ -43,10 +42,7 @@ const ImageSlider = () => {
                 <article className="group relative flex flex-col items-start">
                   <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
                     <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
-                    {/* <a href="/articles/crafting-a-design-system-for-a-multiplanetary-future"> 
-                  <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-                  
-                 </a> */}
+                   
                     <span className="relative z-10">{projects.title}</span>
                   </h2>
                   <time

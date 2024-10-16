@@ -38,7 +38,7 @@ export default function Articles(){
           key={index}
           className="bg-transparent bg-opacity-90 p-6 mb-10 shadow-lg rounded-lg"
         >
-          <h2 className="text-2xl font-bold text-center mb-2">{article.title}</h2>
+          <h2 className="text-2xl  text-zinc-600 dark:text-zinc-100 font-bold text-center mb-2">{article.title}</h2>
          <br/>
           <p className="text-justify  text-zinc-600 dark:text-zinc-400">{article.content}</p>
           <br/>
