@@ -7,7 +7,7 @@ const ThemeToggle: React.FC = () => {
 
   useEffect(() => {
     const storedTheme = localStorage.getItem('yit-portfolio-theme');
-    if (storedTheme === 'dark') {
+    if (storedTheme !== 'dark') {
       setIsDarkMode(true);
       document.documentElement.classList.add('dark');
     } else {
@@ -17,7 +17,7 @@ const ThemeToggle: React.FC = () => {
   }, []);
 
   const toggleTheme = (): void => {
-    if (isDarkMode) {
+    if (!isDarkMode) {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('yit-portfolio-theme', 'light');
     } else {
