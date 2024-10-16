@@ -3,21 +3,21 @@
 import React, { useState, useEffect } from 'react';
 
 const ThemeToggle: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem('yit-portfolio-theme');
     if (storedTheme === 'dark') {
-      setIsDarkMode(false);
+      setIsDarkMode(true);
       document.documentElement.classList.add('dark');
     } else {
-      setIsDarkMode(true);
+      setIsDarkMode(false);
       document.documentElement.classList.remove('dark');
     }
   }, []);
 
   const toggleTheme = (): void => {
-    if (!isDarkMode) {
+    if (isDarkMode) {
       document.documentElement.classList.remove('dark');
       localStorage.setItem('yit-portfolio-theme', 'light');
     } else {
