@@ -32,7 +32,7 @@ const ThemeToggle: React.FC = () => {
   return (
       <div className="flex items-center space-x-4">
        
-        <span className="text-foreground  text-zinc-600  dark:text-zinc-100">Dark</span>
+        <span className="text-foreground  text-zinc-600  dark:text-zinc-100">Light</span>
         <label className="relative inline-block w-10 h-6">
           <input
             type="checkbox"
@@ -47,7 +47,7 @@ const ThemeToggle: React.FC = () => {
             }`}
           ></div>
         </label>
-        <span className="text-foreground  text-zinc-600 dark:text-zinc-100">Light</span>
+        <span className="text-foreground  text-zinc-600 dark:text-zinc-100">Dark</span>
       </div>
 
   );
