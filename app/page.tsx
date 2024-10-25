@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ProfilePic from "./yit.jpg";
 import ImageSlider from "./projectImage";
+import articleData from './articleData.json'
 
 export default function Home() {
   return (
@@ -112,14 +113,13 @@ export default function Home() {
                       <a href="/articles">
                         <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                         <span className="relative z-10">
-                          The Evolution of Automation in AI: From Manual
-                          Processes to Autonomous Systems
+                         {articleData[articleData.length - 1].title}
                         </span>
                       </a>
                     </h2>
                     <time
                       className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                      dateTime="2022-09-05"
+                      dateTime={articleData[articleData.length - 1].date}
                     >
                       <span
                         className="absolute inset-y-0 left-0 flex items-center"
@@ -127,28 +127,10 @@ export default function Home() {
                       >
                         <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
                       </span>
-                      Oct 15, 2024
+                      {articleData[articleData.length - 1].date}
                     </time>
                     <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                      Automation has come a long way, especially when paired
-                      with AI technologies like Machine Learning (ML) and
-                      Natural Language Processing (NLP). Traditional automation
-                      was rule-based, limited to predictable, repetitive tasks,
-                      and highly dependent on human intervention for setup and
-                      execution. Today, AI-powered automation has introduced
-                      dynamic decision-making, learning from data, and improving
-                      over time. With tools like Robotic Process Automation
-                      (RPA) combined with AI models, businesses can automate
-                      complex workflows—going beyond just processing data, to
-                      tasks like intelligent document recognition, customer
-                      support, and even predictive maintenance in IoT systems.
-                      Automation tools like UiPath and Blue Prism now embed AI
-                      models to optimize their automation flows. Tip: When
-                      automating processes, prioritize combining RPA with AI for
-                      cognitive tasks, allowing systems to handle unstructured
-                      data and make decisions autonomously. This leads to faster
-                      adaptation and increased efficiency in real-world
-                      operations.
+                    {articleData[articleData.length - 1].content}
                     </p>
                     <div
                       aria-hidden="true"
@@ -176,14 +158,13 @@ export default function Home() {
                       <a href="/articles">
                         <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                         <span className="relative z-10">
-                          Cloud Security in the AI Era: Protecting Data in a
-                          Distributed World
+                        {articleData[articleData.length - 2].title}
                         </span>
                       </a>
                     </h2>
                     <time
                       className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                      dateTime="2022-09-02"
+                      dateTime=    {articleData[articleData.length - 2].date}
                     >
                       <span
                         className="absolute inset-y-0 left-0 flex items-center"
@@ -191,30 +172,10 @@ export default function Home() {
                       >
                         <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
                       </span>
-                      Oct 14, 2024
+                      {articleData[articleData.length - 2].date}
                     </time>
                     <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                      As enterprises move more workloads to the cloud, security
-                      becomes a critical focus. Cloud-native security solutions
-                      have evolved, allowing seamless integration with existing
-                      cloud services such as AWS, Azure, and GCP. The use of
-                      encryption (both at-rest and in-transit), Identity and
-                      Access Management (IAM), and secure API gateways are the
-                      first layers of defense. However, with the growing
-                      adoption of AI, securing sensitive data within machine
-                      learning models, datasets, and the entire AI pipeline is
-                      equally important. Adversarial machine learning attacks,
-                      where attackers manipulate input data to compromise AI
-                      models, are an emerging threat. Tools like AWS GuardDuty
-                      and Azure Security Center provide real-time threat
-                      detection, but companies also need to implement
-                      AI-specific security protocols, like homomorphic
-                      encryption and federated learning, to mitigate these
-                      risks. Tip: To enhance cloud security in AI environments,
-                      implement encryption across all stages of data lifecycle
-                      management and adopt a Zero Trust security model. This
-                      ensures that no entity, whether inside or outside the
-                      organization, is implicitly trusted.
+                    {articleData[articleData.length - 2].content}
                     </p>
                     <div
                       aria-hidden="true"
