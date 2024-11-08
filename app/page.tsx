@@ -3,6 +3,7 @@ import ProfilePic from "./yit.jpg";
 import ImageSlider from "./projectImage";
 import articleData from './articleData.json'
 
+
 export default function Home() {
   return (
     <>
@@ -19,8 +20,8 @@ export default function Home() {
             className="rounded-full inline-block"
             src={ProfilePic}
           />
-
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100 inline-block ml-6">
+          <h1 style={{backgroundImage: `url(${ProfilePic.src})`, WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}
+          className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100 inline-block ml-6">
             Software Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
