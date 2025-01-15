@@ -25,8 +25,8 @@ export default function Home() {
             Software Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Yitbarek, a software engineer based in Minneapolis with 5+ years
-            of expertise in designing, testing, and deploying high-performance
+            I’m Yitbarek, a software engineer based in Minneapolis with strong
+            expertise in designing, testing, and deploying high-performance
             web applications, software and automation solutions. Proven track
             record of making impactful contributions across diverse cross teams
             through exceptional communication with cross-functional teams and
