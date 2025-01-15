@@ -121,7 +121,7 @@ export default function RootLayout({
                             
                           </div>
                           <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                            © 2024 Yitbarek Wolde. All rights reserved.
+                            © 2025 Yitbarek Wolde. All rights reserved.
                           </p>
                         </div>
                       </div>
