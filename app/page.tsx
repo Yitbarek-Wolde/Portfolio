@@ -326,9 +326,9 @@ export default function Home() {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="2019 until 2023"
                           >
-                            <time dateTime="2019">2019</time>
+                            <time dateTime="2019"></time>
                             <span aria-hidden="true">—</span>
-                            <time dateTime="2023">2023</time>
+                            <time dateTime="2023"></time>
                           </dd>
                         </dl>
                       </li>
@@ -359,9 +359,9 @@ export default function Home() {
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="2018 until 2019"
                           >
-                            <time dateTime="2018">2018</time>
+                            <time dateTime="2018"></time>
                             <span aria-hidden="true">—</span>
-                            <time dateTime="2019">2019</time>
+                            <time dateTime="2019"></time>
                           </dd>
                         </dl>
                       </li>
