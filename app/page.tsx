@@ -68,7 +68,7 @@ export default function Home() {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on GitHub"
-              href="https://github.com/Yitbarek-Wolde"
+              href="https://github.com/"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ export default function Home() {
             <a
               className="group -m-1 p-1"
               aria-label="Follow on LinkedIn"
-              href="https://linkedin.com/in/yitbarek-w-2a162426b"
+              href="https://linkedin.com/in/"
             >
               <svg
                 viewBox="0 0 24 24"
