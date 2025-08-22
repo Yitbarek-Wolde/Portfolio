@@ -284,18 +284,18 @@ export default function Home() {
                         <dl className="flex flex-auto flex-wrap gap-x-2">
                           <dt className="sr-only">Company</dt>
                           <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                            Maharishi International University, Iowa
+                            Freelancer
                           </dd>
                           <dt className="sr-only">Role</dt>
                           <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                            Teaching Assitant
+                            Full Stack Software Engineer
                           </dd>
                           <dt className="sr-only">Date</dt>
                           <dd
                             className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
                             aria-label="2023"
                           >
-                            <time dateTime="2023">Nov 2023</time>
+                            <time dateTime="2023">Dec 2024</time>
                           </dd>
                         </dl>
                       </li>
@@ -315,7 +315,7 @@ export default function Home() {
                         <dl className="flex flex-auto flex-wrap gap-x-2">
                           <dt className="sr-only">Company</dt>
                           <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                            Addis Tech-Solutions
+                          Sweven Trading PLC
                           </dd>
                           <dt className="sr-only">Role</dt>
                           <dd className="text-xs text-zinc-500 dark:text-zinc-400">
