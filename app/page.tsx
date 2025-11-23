@@ -299,8 +299,8 @@ export default function Home() {
                           </dd>
                         </dl>
                       </li>
-                      <li className="flex gap-4">
-                        <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                       {/*   <li className="flex gap-4">
+                      <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                           {/* <img
                                   alt=""
                                   loading="lazy"
@@ -310,12 +310,12 @@ export default function Home() {
                                   data-nimg="1"
                                   className="h-7 w-7"
                                   src="/_next/static/media/facebook.dd9e7d48.svg"
-                                /> */}
+                                /> 
                         </div>
-                        {/* <dl className="flex flex-auto flex-wrap gap-x-2">
+                       <dl className="flex flex-auto flex-wrap gap-x-2">
                           <dt className="sr-only">Company</dt>
                           <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                          Sweven Trading PLC
+                         todo comapny
                           </dd>
                           <dt className="sr-only">Role</dt>
                           <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -330,7 +330,7 @@ export default function Home() {
                             <span aria-hidden="true">—</span>
                             <time dateTime="2023"></time>
                           </dd>
-                        </dl> */}
+                        </dl> 
                       </li>
                       <li className="flex gap-4">
                         <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
@@ -343,12 +343,12 @@ export default function Home() {
                                   data-nimg="1"
                                   className="h-7 w-7"
                                   src="/_next/static/media/starbucks.4a5bd050.svg"
-                                /> */}
+                                /> 
                         </div>
-                        {/* <dl className="flex flex-auto flex-wrap gap-x-2">
+                        <dl className="flex flex-auto flex-wrap gap-x-2">
                           <dt className="sr-only">Company</dt>
                           <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                            Kifiya Financial Technology PLC
+                            todo company
                           </dd>
                           <dt className="sr-only">Role</dt>
                           <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -363,8 +363,8 @@ export default function Home() {
                             <span aria-hidden="true">—</span>
                             <time dateTime="2019"></time>
                           </dd>
-                        </dl> */}
-                      </li>
+                        </dl> 
+                      </li>*/}
                     </ol>
                     <a
                       className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
